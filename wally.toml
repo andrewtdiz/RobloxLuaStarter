@@ -1,0 +1,10 @@
+[package]
+name = "dipdoozy/vanishedlua"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Weave = "andrewtdiz/weave@0.1.3"
+fusion = "elttob/fusion@0.3.0"
+
