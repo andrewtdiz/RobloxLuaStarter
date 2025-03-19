@@ -1,5 +1,5 @@
 {
-  "name": "vanishedLua",
+  "name": "starterLuau",
   "tree": {
     "$className": "DataModel",
 
@@ -7,24 +7,32 @@
       "Packages": {
         "$path": "Packages"
       },
-      "External": {
+      "Rojo": {
         "$path": "src/shared"
       }
     },
 
     "ServerScriptService": {
-      "External": {
+      "Rojo": {
         "$path": "src/server"
       }
     },
 
     "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "External": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+        "Rojo": {
           "$path": "src/client"
         }
-      }
-    },
+			},
+			"StarterCharacterScripts": {
+				"$className": "StarterCharacterScripts",
+        "Rojo": {
+          "$path": "src/character"
+        }
+			}
+		},
 
     "Workspace": {
       "$properties": {
