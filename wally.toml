@@ -6,3 +6,4 @@ realm = "shared"
 
 [dependencies]
 Weave = "andrewtdiz/weave@0.1.8"
+component = "andrewtdiz/component@0.1.2"
