@@ -9,10 +9,10 @@ dependencies = []
 
 [[package]]
 name = "andrewtdiz/weave"
-version = "0.1.8"
+version = "0.1.9"
 dependencies = []
 
 [[package]]
 name = "dipdoozy/luau-starter"
 version = "0.1.0"
-dependencies = [["Weave", "andrewtdiz/weave@0.1.8"], ["component", "andrewtdiz/component@0.1.2"]]
+dependencies = [["Weave", "andrewtdiz/weave@0.1.9"], ["component", "andrewtdiz/component@0.1.2"]]
